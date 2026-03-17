@@ -1,119 +1,172 @@
-# SERP Streamate Downloader
+# Streamate Downloader (Browser Extension)
 
-**Record live streams from Streamate.com — any quality, live or recorded, saved as MP4.**
+> Record Streamate live streams and download saved videos as MP4 files for offline viewing.
 
-SERP Streamate Downloader is a browser extension that lets you capture live streams and download recorded videos from Streamate.com with a single click. Visit any model's page, hit the download button right on the player, choose your quality, and the stream is saved as a standard MP4 file to your computer. It supports live recording with start/stop controls, VR streams, and on-demand video downloads. No extra software required. Three free downloads are included so you can try it before you buy.
+Streamate Downloader is a browser extension built for users who want a cleaner way to keep Streamate live broadcasts and saved videos available outside the site. It detects supported streams in your browser session, gives you direct capture controls for live rooms and recorded videos, and exports finished files as MP4 for easier playback later.
 
-**Product page:** [https://serp.ly/streamate-video-downloader](https://serp.ly/streamate-video-downloader)<br>
-**Help center:** [https://help.serp.co/en/](https://help.serp.co/en/)<br>
-**Latest release:** [https://github.com/serpapps/streamate-video-downloader/releases/latest](https://github.com/serpapps/streamate-video-downloader/releases/latest)
+- Record active Streamate live streams while they are broadcasting
+- Download saved videos from supported model pages
+- Preserve supported VR captures with playback-friendly metadata when available
+- Choose from the stream qualities exposed on the page
+- Save MP4 files for easier offline playback and archiving
 
----
+## Links
 
-## Why SERP Streamate Downloader?
+- 🚀 Get it here: [Streamate Downloader](https://serp.ly/streamate-video-downloader)
+- 🆕 Latest release: [GitHub Releases](https://github.com/serpapps/streamate-downloader/releases/latest)
+- ❓ Help center: [SERP Help](https://help.serp.co/en/)
+- 🐛 Report bugs: [GitHub Issues](https://github.com/serpapps/streamate-downloader/issues)
+- 💡 Request features: [Feature Requests](https://github.com/serpapps/streamate-downloader/issues)
 
-Streamate.com does not offer a built-in way to save streams. You cannot right-click and save a live broadcast, and the video URLs are not exposed anywhere on the page. Generic screen recorders lose quality, require bulky desktop software, and cannot select stream resolution. SERP Streamate Downloader solves all of this inside your browser. It detects streams automatically, offers every available quality level, and delivers a clean MP4 file — no conversion tools, no command line, no fuss.
+## Preview
 
----
+![Streamate Downloader workflow preview](assets/workflow-preview.svg)
 
-## Key Features
+## Table of Contents
 
-- **Live stream capture** — Record a live broadcast in real time with simple start and stop controls.
-- **On-demand video downloads** — Save recorded videos (VOD) from any model's video library.
-- **Quality selection** — Pick from every available resolution, sorted highest to lowest.
-- **VR stream support** — Detects VR broadcasts and preserves VR metadata in the filename.
-- **In-page download button** — A download button appears directly on the video player for one-click access.
-- **Right-click context menu** — Right-click anywhere on a Streamate page and select "Download Streamate Stream."
-- **Download manager** — Track progress with a real-time panel showing elapsed time, segment count, and speed.
-- **Auto-organized saves** — Downloads go straight into a dedicated STREAMATE folder inside your Downloads directory.
-- **Desktop notifications** — Get notified when a capture or download finishes.
-- **Multi-browser support** — Works on Chrome, Edge, Brave, Opera, Whale, Yandex, and Firefox.
+- [Why Streamate Downloader](#why-streamate-downloader)
+- [Features](#features)
+- [How It Works](#how-it-works)
+- [Step-by-Step Tutorial: How to Download Videos from Streamate](#step-by-step-tutorial-how-to-download-videos-from-streamate)
+- [Supported Formats](#supported-formats)
+- [Who It's For](#who-its-for)
+- [Common Use Cases](#common-use-cases)
+- [Troubleshooting](#troubleshooting)
+- [Trial & Access](#trial--access)
+- [Installation Instructions](#installation-instructions)
+- [FAQ](#faq)
+- [Notes](#notes)
+- [About Streamate](#about-streamate)
 
----
+## Why Streamate Downloader
+
+Streamate is built for live browser viewing, not for straightforward offline saving. Live rooms end, saved videos are not exposed with a simple native download flow, and generic downloaders often miss short-lived or protected stream URLs.
+
+Streamate Downloader is built specifically for that workflow. It focuses on supported Streamate pages, detects the active media in your current browser session, and gives you a cleaner way to keep accessible content locally without switching to desktop capture tools or manual stream inspection.
+
+## Features
+
+- Live stream recording for active Streamate rooms
+- Saved video downloads from supported model pages
+- VR stream support when compatible media is exposed
+- Quality selection for available resolutions and stream variants
+- In-page controls on supported video pages
+- Popup workflow for starting and managing captures
+- Right-click access for a faster recording flow
+- MP4 output for easier playback and transfer
+- Automatic saving into a dedicated STREAMATE folder
+- Cross-browser support for Chrome, Edge, Brave, Opera, Firefox, Whale, and Yandex
 
 ## How It Works
 
-1. **Install** — Add SERP Streamate Downloader to your browser from the releases page.
-2. **Visit** — Go to Streamate.com and open any model's page.
-3. **Click** — Use the download button on the player, the extension popup in your toolbar, or the right-click context menu.
-4. **Capture** — For live streams, press Start to begin recording and Stop when you are done. For recorded videos, pick your quality and download. Your file is saved as MP4 to the STREAMATE folder.
+1. Install the extension from the latest release.
+2. Open Streamate and go to a live room or saved video page.
+3. Start playback so the extension can detect the stream.
+4. Open the popup or use the on-page controls.
+5. Choose the quality or stream option you want.
+6. Record the live session or download the saved video.
+7. Save the final MP4 file locally.
 
----
+## Step-by-Step Tutorial: How to Download Videos from Streamate
+
+1. Install Streamate Downloader from the latest GitHub release.
+2. Open Streamate and sign in if the page requires account access.
+3. Visit the live room, saved video page, or supported VR page you want to keep.
+4. Let the player load fully and press play.
+5. Click the extension button or the on-page control.
+6. Review the quality options shown by the extension.
+7. For live rooms, start recording and stop it when the session is finished.
+8. For saved videos, click download and wait for the MP4 export to complete.
+9. Open the finished file from your Downloads folder.
 
 ## Supported Formats
 
-| Output | Details |
-|--------|---------|
-| **MP4** | Standard MP4 video — plays on any device, media player, or editing software. |
-| **Quality** | All resolutions available from the source, from SD up to full HD and beyond. |
-| **VR** | VR streams captured with stereoscopic and projection metadata preserved. |
+- Input: Streamate live streams
+- Input: Streamate saved videos
+- Input: Supported Streamate VR streams
+- Output: MP4
 
----
+Saved files use MP4 so they are easier to replay on standard media players, transfer between devices, or archive for later access.
 
 ## Who It's For
 
-- Streamate viewers who want to save favorite live performances for offline watching.
-- Collectors who prefer to keep a personal archive of recorded content.
-- Users on limited or unreliable internet connections who want to watch later without buffering.
-- Anyone who needs a simple, no-hassle tool that works entirely in the browser.
-
----
+- Streamate viewers who want to keep live rooms before they end
+- Users who want offline access to saved videos they can already watch
+- VR viewers who want to preserve supported immersive content
+- People archiving content they are permitted to keep
+- Anyone who wants a browser-based workflow instead of manual capture software
 
 ## Common Use Cases
 
-- Capture a live broadcast from start to finish and watch it again anytime.
-- Download a model's recorded videos in the highest available quality.
-- Save VR streams with the correct metadata so they display properly in a VR headset.
-- Build an offline library organized automatically into a dedicated folder.
+- Record a Streamate live broadcast to watch later
+- Download a saved video from a model page
+- Keep local copies of content before it disappears from easy access
+- Save supported VR content for later playback on compatible devices
+- Download the best quality exposed by the page
 
----
+## Troubleshooting
+
+**The extension is not detecting the stream**  
+Press play first and wait a few seconds so the stream has time to initialize.
+
+**The page control is missing**  
+Open the extension popup directly. Some supported pages work better through the popup UI.
+
+**Only one quality option is listed**  
+That usually means the page is exposing a single playable stream variant.
+
+**The recording stopped too early**  
+Check whether the live session ended or your internet connection dropped during capture.
+
+**The page requires account or paid access**  
+The extension only works on media you can already open and play in your active browser session.
 
 ## Trial & Access
 
-SERP Streamate Downloader includes **3 free downloads** after signing in with your email — no credit card required. Once you have used your trial downloads, upgrade to an unlimited license for continued access. Sign-in uses a secure one-time password sent to your email, so there are no passwords to remember or store.
+- Includes **3 free downloads** so you can test the workflow first
+- Email sign-in uses secure one-time password verification
+- No credit card required for the trial
+- Unlimited downloads are available with a paid license
 
----
+Start here: [https://serp.ly/streamate-video-downloader](https://serp.ly/streamate-video-downloader)
+
+## Installation Instructions
+
+1. Open the latest release page:
+   [https://github.com/serpapps/streamate-downloader/releases/latest](https://github.com/serpapps/streamate-downloader/releases/latest)
+2. Download the extension build for your browser.
+3. Install the extension.
+4. Open Streamate and navigate to a live room or saved video.
+5. Use the extension controls to start recording or downloading.
 
 ## FAQ
 
-**How do I capture a live stream?**
-Open a live model's page on Streamate.com. Click the download button or the extension icon. Select your quality and click Start. The extension records the stream in real time. Click Stop when you want to finish, and the recording saves as MP4.
+**Can I record Streamate live streams?**  
+Yes. Active Streamate live rooms can be recorded while they are broadcasting.
 
-**Can I download recorded videos too?**
-Yes. Navigate to a model's recorded video page and use the extension the same way — select quality and download.
+**Can I download saved videos too?**  
+Yes. The extension supports saved Streamate videos on supported pages.
 
-**What quality options are available?**
-The extension detects all available stream qualities from the source, typically multiple resolutions. They are sorted from highest quality to lowest.
+**Does it support VR streams?**  
+Yes, when Streamate exposes compatible VR-capable media for that page.
 
-**What format are downloaded videos?**
-All videos are saved as standard MP4 files that play on any device or media player.
+**What file format do downloads use?**  
+Videos are saved as MP4 files.
 
-**Where are my downloads saved?**
-Videos automatically save to a STREAMATE subfolder inside your browser's default Downloads directory.
+**Where are videos saved?**  
+They are saved to your default Downloads location, typically inside a STREAMATE subfolder.
 
-**Does this support VR streams?**
-Yes. The extension detects VR camera settings and includes relevant VR metadata in the filename.
+**Do I need extra software?**  
+No. Everything runs through the browser extension.
 
-**How many free downloads do I get?**
-Three free trial downloads after signing in with your email. Purchase a license for unlimited downloads.
+## Notes
 
-**Does this work on Firefox?**
-Yes. It supports Chrome, Edge, Brave, Opera, Whale, Yandex, and Firefox.
+- Only download content you own or have explicit permission to save
+- An internet connection is required for live capture and downloads
+- Live recording only works while the creator is actively streaming
+- Some pages may require account access, paid access, or membership
+- VR support depends on the media exposed by Streamate for that stream
 
-**Why can't the extension find the stream?**
-Make sure the model is currently live. If they are offline or in a private show, the extension will display a status message. Refresh the page if issues persist.
+## About Streamate
 
----
-
-## Notes (Important)
-
-- An internet connection is required for stream detection and capture.
-- The model must be actively live for live stream capture. Private shows cannot be recorded.
-- Download quality depends on what the source stream provides.
-- Users are responsible for ensuring they have the right to download content. This extension is intended for downloading content you own or have permission to download.
-
----
-
-## Get It
-
-**[Download SERP Streamate Downloader](https://serp.cc/VDM-streamate-video-downloader)**
+Streamate combines live rooms with saved video content, which makes offline access more awkward than on ordinary video sites. Stream protection, live-only sessions, and page-specific playback behavior all add friction for users who want a local copy. Streamate Downloader simplifies that workflow inside the browser for users who already have legitimate access to the content.
