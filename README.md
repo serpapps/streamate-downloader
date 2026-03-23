@@ -12,11 +12,11 @@ Streamate Downloader is a browser extension built for users who want a cleaner w
 
 ## Links
 
-- ðŸš€ Get it here: [Streamate Downloader](https://serp.ly/streamate-video-downloader)
-- ðŸ†• Latest release: [GitHub Releases](https://github.com/serpapps/streamate-downloader/releases/latest)
-- â“ Help center: [SERP Help](https://help.serp.co/en/)
-- ðŸ› Report bugs: [GitHub Issues](https://github.com/serpapps/streamate-downloader/issues)
-- ðŸ’¡ Request features: [Feature Requests](https://github.com/serpapps/streamate-downloader/issues)
+- :rocket: Get it here: [Streamate Downloader](https://serp.ly/streamate-video-downloader)
+- :new: Latest release: [GitHub Releases](https://github.com/serpapps/streamate-downloader/releases/latest)
+- :question: Help center: [SERP Help](https://help.serp.co/en/)
+- :beetle: Report bugs: [GitHub Issues](https://github.com/serpapps/streamate-downloader/issues)
+- :bulb: Request features: [Feature Requests](https://github.com/serpapps/streamate-downloader/issues)
 
 ## Preview
 
@@ -158,6 +158,10 @@ They are saved to your default Downloads location, typically inside a STREAMATE 
 
 **Do I need extra software?**  
 No. Everything runs through the browser extension.
+
+## License
+
+This repository is distributed under the proprietary SERP Apps license in the [LICENSE](LICENSE) file. Review that file before copying, modifying, or redistributing any part of this project.
 
 ## Notes
 
