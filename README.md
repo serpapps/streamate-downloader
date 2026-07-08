@@ -1,4 +1,4 @@
-# Streamate Downloader (Browser Extension)
+# Streamate Video Downloader (Browser Extension)
 
 > Record Streamate live streams and download saved videos as MP4 files for offline viewing.
 
@@ -12,7 +12,7 @@ Streamate Downloader is a browser extension built for users who want a cleaner w
 
 ## Links
 
-- :rocket: Get it here: [Streamate Downloader](https://serp.ly/streamate-video-downloader)
+- :rocket: Get it here: [Streamate Downloader](https://serp.ly/streamate-video-downloader?via=github)
 - :new: Latest release: [GitHub Releases](https://github.com/serpapps/streamate-downloader/releases/latest)
 - :question: Help center: [SERP Help](https://help.serp.co/en/)
 - :beetle: Report bugs: [GitHub Issues](https://github.com/serpapps/streamate-downloader/issues)
@@ -128,7 +128,7 @@ The extension only works on media you can already open and play in your active b
 - No credit card required for the trial
 - Unlimited downloads are available with a paid license
 
-Start here: [https://serp.ly/streamate-video-downloader](https://serp.ly/streamate-video-downloader)
+Start here: [https://serp.ly/streamate-video-downloader?via=github](https://serp.ly/streamate-video-downloader?via=github)
 
 ## Installation Instructions
 
